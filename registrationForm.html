@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input, select{
+            border-radius: 0;
+            border-style: none;
+            border: 1px solid black;
+        }
+        .regBtn{
+            margin-left: 148px;
+            width: 100px;
+            padding: 10px; 
+            border-radius: 0; 
+            border-style: none;
+            border: 1px solid black;
+        }
+        .browseBtn{
+            border-radius: 0; 
+            border-style: none;
+            border: 1px solid black;
+            margin-left: -5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form style="margin: 50px 0 0 200px;">
+       
+        <div style="float: left;">
+        <label for="" style="padding-right: 90px;">Name</label> 
+        <input type="text"><br><br>
+
+        <label for="" style="padding-right: 58px;">Last Name</label> 
+        <input type="text"><br><br>
+
+        <label for="" style="padding-right: 75px;">Gender</label>
+        <input type="radio" name="gender"> man 
+        <input type="radio" name="gender"> woman <br><br>
+
+        <label for="" style="padding-right: 78px;">District</label>
+        <select style="width: 146px;">
+            <option value=""></option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select><br><br>
+
+        <label for="" style="padding-right: 90px;">email</label>
+        <input type="text"><br><br>
+
+        <label for="" style="padding-right: 43px;">personal Site</label>
+        <input type="text"><br><br>
+
+        <label for="" style="padding-right: 63px;">telephone</label>
+        <input type="number">
+    </div>
+
+    <div style="float: left; padding-left:50px;">
+        <label for="" style="padding-right: 90px;">hobbies</label> 
+        <input type="checkbox"> Football <br><br>
+        <input type="checkbox" style="margin-left: 148px;"> Volleyball <br><br>
+        <input type="checkbox" style="margin-left: 148px;"> Basketball <br><br>
+
+        <label for="" style="padding-right: 60px;">Profile photo</label>
+        <input type="text" placeholder="Select file" style="width: 120px;"> 
+        <button class="browseBtn">Browse</button><br><br>
+
+        <label for="" style="padding-right: 60px;">Date of Birth</label>
+        <input type="text"> <br><br>
+
+        <label for="">Address</label><br>
+        <textarea style="margin: -20px 0 0 148px;" cols="20" rows="5"></textarea> <br><br>
+
+        <button class="regBtn" type="button">Register</button>
+
+    </div>
+
+    </form>
+</body>
+</html>
